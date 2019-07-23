@@ -1,0 +1,7 @@
+Iterators
+
+Create a class that implements the Iterator interface.
+Add 2 properties: an integer index (the future index of the array) and a regular list with several elements.
+In methods from the Iterator interface, work with the index property and returning if necessary return $ this-> list [$ this-> index];
+In the loop, loop through the object and display the current value in the loop each time. Make sure that all the contents of the list property are displayed as a result.
+Note: For example, in rewind () you must write $ this-> index = 0; In current (), return $ this-> list [$ this-> index] and so on.
